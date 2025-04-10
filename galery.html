@@ -1,43 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery - E-Shop</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Domov - Releaf</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <!-- Navbar -->
-    <header class="navbar navbar-expand-lg p-3">
-        <div class="container">
-            <a class="navbar-brand text" href="index.html">LOGO</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link text" href="shop.html">Shop</a></li>
-                    <li class="nav-item"><a class="nav-link text active" href="gallery.html">Gallery</a></li>
-                    <li class="nav-item"><a class="nav-link text" href="about.html">About</a></li>
-                    <li class="nav-item"><a class="nav-link text" href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </header>
-
+  <!-- Navbar from SECOND layout -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <img src="img/logo.png" class="logo" alt="Logo" />
+      <nav class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="index.html">DOMOV</a></li>
+          <li><a href="about.html">O NÁS</a></li>
+          <li><a href="shop.html">E-SHOP</a></li>
+          <li><a href="galery.html">GALÉRIA</a></li>
+          <li><a href="contact.html">KONTAKT</a></li>
+        </ul>
+      </nav>
+      <div class="auth-buttons">
+        <button>SIGN IN</button>
+        <button class="active">LOG IN</button>
+      </div>
+    </div>
+  </header>
     <!-- Gallery Section -->
-    <section class="gallery-container container mt-5">
+    <section class="gallery-container container mt-5 mb-5">
         <h2 class="text-center mb-4 heading">Photo Gallery</h2>
         <div class="gallery-grid">
-            <img src="img/obrH.png" class="gallery-item tall" alt="Gallery Image">
-            <img src="img/obrW.png" class="gallery-item wide" alt="Gallery Image">
-            <img src="img/product.jpg" class="gallery-item square" alt="Gallery Image">
-            <img src="img/product.jpg" class="gallery-item square" alt="Gallery Image">            
-            <img src="img/obrW.png" class="gallery-item wide" alt="Gallery Image">
-            <img src="img/obrH.png" class="gallery-item tall large-photo" alt="Gallery Image">
-            <img src="img/obrH.png" class="gallery-item tall" alt="Gallery Image">
+            <!-- <img src="img/14.jpg" class="gallery-item tall" alt="Gallery Image"> -->
+            <img src="img/4.jpg" class="gallery-item wide" alt="Gallery Image">
+            <img src="img/23.jpg" class="gallery-item square" alt="Gallery Image">
+            <img src="img/6.jpg" class="gallery-item square" alt="Gallery Image">            
+            <img src="img/22.jpg" class="gallery-item wide" alt="Gallery Image">
+            <img src="img/34.jpg" class="gallery-item tall large-photo" alt="Gallery Image">
+            <img src="img/2.jpg" class="gallery-item wide" alt="Gallery Image">
+            <img src="img/10.jpg" class="gallery-item tall" alt="Gallery Image">
+            <img src="img/19.jpg" class="gallery-item wide" alt="Gallery Image">
+
 
             <!-- <img src="img/obrW.png" class="gallery-item wide" alt="Gallery Image">
             <img src="img/obrH.png" class="gallery-item tall" alt="Gallery Image">
@@ -45,11 +49,24 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class=" text-white text-center p-3 mt-5">
-        <p>&copy; 2024 E-Shop. All rights reserved.</p>
-    </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-row">
+        <img src="img/location_icon.png" class="icon" alt="Location" />
+        <span>Corraterie 5 - 1204 GENEVA</span>
+      </div>
+      <div class="footer-row">
+        <img src="img/mail_icon.png" class="icon" alt="Email" />
+        <span>support@releaf.com</span>
+      </div>
+      <div class="footer-row">
+        <img src="img/phone_icon.png" class="icon" alt="Phone" />
+        <span>+33 189 202 093</span>
+      </div>
+    </div>
+  </footer>
+
 </body>
 </html>
